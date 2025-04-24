@@ -21,9 +21,9 @@
   <a href="https://www.codechef.com/users/tobi_18" target="_blank" style="margin-left: 10px;">
     <img align="center" src="https://upload.wikimedia.org/wikipedia/en/7/7b/Codechef%28new%29_logo.svg" alt="CodeChef" height="40" />
   </a>
-  <a href="https://leetcode.com/sri_2498/" target="_blank" style="margin-left: 10px;">
+<!--   <a href="https://leetcode.com/sri_2498/" target="_blank" style="margin-left: 10px;">
     <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode" height="40" />
-  </a>
+  </a> -->
 </p>
 
 ---
@@ -51,8 +51,8 @@
 
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/sri-ganeshk/sri-ganeshk/main/output/github-snake-light.svg"
-    data-dark-theme="https://raw.githubusercontent.com/sri-ganeshk/sri-ganeshk/main/output/github-snake-dark.svg"
+    src="https://raw.githubusercontent.com/venkatesh-7777/venkatesh-7777/main/output/github-snake-light.svg"
+    data-dark-theme="https://raw.githubusercontent.com/venkatesh-7777/venkatesh-7777/main/output/github-snake-dark.svg"
     alt="github-snake"
   />
 </p>
