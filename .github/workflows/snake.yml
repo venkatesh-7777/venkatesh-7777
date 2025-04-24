@@ -22,6 +22,7 @@ jobs:
             # dark-mode snake (uses GitHub’s dark palette)
             output/github-snake-dark.svg?palette=github-dark&color_snake=128,0,128
 
+
       - name: Commit updated snakes
         run: |
           git config user.name "github-actions[bot]"
