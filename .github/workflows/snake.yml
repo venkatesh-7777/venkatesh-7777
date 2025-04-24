@@ -1,16 +1,25 @@
 name: Update GitHub Snake
 
+# Give the GITHUB_TOKEN write access to repo contents
+permissions:
+  contents: write
+
 on:
   schedule:
-    - cron: '0 0 * * *'     # every day at 00:00 UTC
+    # every day at 00:00 UTC
+    - cron: '0 0 * * *'
   push:
     branches: [ main, master ]
 
 jobs:
   snake:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        # persist-credentials is true by default, so this checkout
+        # will use the write-enabled token we granted above.
 
       - name: Generate light & dark SVG-only Snakes
         uses: Platane/snk/svg-only@v3
@@ -22,7 +31,6 @@ jobs:
             # dark-mode snake (uses GitHub’s dark palette)
             output/github-snake-dark.svg?palette=github-dark&color_snake=128,0,128
 
-
       - name: Commit updated snakes
         run: |
           git config user.name "github-actions[bot]"
@@ -30,3 +38,4 @@ jobs:
           git add output/github-snake-light.svg output/github-snake-dark.svg
           git commit -m "chore: update github-snake svgs" || echo "No changes to commit"
           git push
+
