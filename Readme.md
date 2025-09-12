@@ -45,17 +45,6 @@
 
 <h3 align="center">🚀 Let's Connect and Collaborate!</h3>
 
----
-
-<h3 align="center">📊 GitHub Stats & Snake Animation</h3>
-
-<p align="center">
-  <img
-    src="https://raw.githubusercontent.com/venkatesh-7777/venkatesh-7777/main/output/github-snake-light.svg"
-    data-dark-theme="https://raw.githubusercontent.com/venkatesh-7777/venkatesh-7777/main/output/github-snake-dark.svg"
-    alt="github-snake"
-  />
-</p>
 
 
 
